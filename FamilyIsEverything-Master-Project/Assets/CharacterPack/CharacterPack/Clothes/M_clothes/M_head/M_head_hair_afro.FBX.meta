@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: f76ccae4cd98b441697e34492212fd47
+timeCreated: 1504511361
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+    100002: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+    100004: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+    100006: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+    100008: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+    100010: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+    100012: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+    100014: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+    100016: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+    100018: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+    100020: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+    100022: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+    100024: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+    100026: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+    100028: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+    100030: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+    100032: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+    100034: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+    100036: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+    100038: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+    100040: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+    100042: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+    100044: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+    100046: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+    100048: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+    100050: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+    100052: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+    100054: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+    100056: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+    100058: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+    100060: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+    100062: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+    100064: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+    100066: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+    100068: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+    100070: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+    100072: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+    100074: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+    100076: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+    100078: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+    100080: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+    100082: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+    100084: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+    100086: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+    100088: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+    100090: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+    100092: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+    100094: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+    100096: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+    100098: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+    100100: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+    100102: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+    100104: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+    100106: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+    100108: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+    100110: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+    100112: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+    100114: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+    100116: CharacterRig_Setup_H_PathStretch_C_5_1SV
+    100118: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+    100120: CharacterRig_Setup_H_WrapperArm_L_O_1ALV
+    100122: CharacterRig_Setup_H_WrapperArm_R_O_1ARV
+    100124: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+    100126: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+    100128: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+    100130: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+    100132: hair_afro
+    100134: //RootNode
+    400000: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+    400002: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+    400004: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+    400006: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+    400008: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+    400010: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+    400012: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+    400014: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+    400016: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+    400018: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+    400020: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+    400022: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+    400024: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+    400026: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+    400028: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+    400030: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+    400032: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+    400034: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+    400036: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+    400038: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+    400040: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+    400042: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+    400044: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+    400046: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+    400048: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+    400050: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+    400052: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+    400054: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+    400056: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+    400058: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+    400060: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+    400062: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+    400064: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+    400066: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+    400068: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+    400070: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+    400072: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+    400074: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+    400076: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+    400078: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+    400080: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+    400082: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+    400084: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+    400086: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+    400088: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+    400090: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+    400092: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+    400094: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+    400096: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+    400098: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+    400100: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+    400102: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+    400104: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+    400106: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+    400108: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+    400110: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+    400112: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+    400114: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+    400116: CharacterRig_Setup_H_PathStretch_C_5_1SV
+    400118: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+    400120: CharacterRig_Setup_H_WrapperArm_L_O_1ALV
+    400122: CharacterRig_Setup_H_WrapperArm_R_O_1ARV
+    400124: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+    400126: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+    400128: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+    400130: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+    400132: hair_afro
+    400134: //RootNode
+    4300000: hair_afro
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: hair_afro
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ddd65493b3d7441a494c73709ea8dd08,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

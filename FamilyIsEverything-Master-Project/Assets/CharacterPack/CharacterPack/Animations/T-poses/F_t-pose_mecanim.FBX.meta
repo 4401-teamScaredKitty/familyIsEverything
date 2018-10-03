@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 80087ed04ffc75f4e83dc331a81a9d13
+timeCreated: 1518421749
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+    100002: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+    100004: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+    100006: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+    100008: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+    100010: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+    100012: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+    100014: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+    100016: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+    100018: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+    100020: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+    100022: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+    100024: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+    100026: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+    100028: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+    100030: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+    100032: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+    100034: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+    100036: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+    100038: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+    100040: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+    100042: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+    100044: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+    100046: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+    100048: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+    100050: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+    100052: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+    100054: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+    100056: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+    100058: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+    100060: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+    100062: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+    100064: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+    100066: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+    100068: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+    100070: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+    100072: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+    100074: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+    100076: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+    100078: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+    100080: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+    100082: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+    100084: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+    100086: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+    100088: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+    100090: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+    100092: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+    100094: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+    100096: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+    100098: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+    100100: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+    100102: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+    100104: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+    100106: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+    100108: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+    100110: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+    100112: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+    100114: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+    100116: CharacterRig_Setup_H_PathStretch_C_5_1SV
+    100118: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+    100120: CharacterRig_Setup_H_WrapperArm_L_O_1ALV
+    100122: CharacterRig_Setup_H_WrapperArm_R_O_1ARV
+    100124: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+    100126: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+    100128: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+    100130: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+    100132: F_body_01
+    100134: //RootNode
+    400000: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+    400002: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+    400004: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+    400006: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+    400008: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+    400010: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+    400012: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+    400014: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+    400016: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+    400018: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+    400020: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+    400022: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+    400024: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+    400026: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+    400028: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+    400030: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+    400032: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+    400034: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+    400036: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+    400038: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+    400040: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+    400042: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+    400044: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+    400046: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+    400048: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+    400050: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+    400052: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+    400054: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+    400056: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+    400058: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+    400060: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+    400062: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+    400064: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+    400066: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+    400068: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+    400070: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+    400072: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+    400074: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+    400076: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+    400078: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+    400080: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+    400082: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+    400084: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+    400086: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+    400088: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+    400090: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+    400092: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+    400094: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+    400096: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+    400098: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+    400100: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+    400102: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+    400104: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+    400106: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+    400108: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+    400110: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+    400112: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+    400114: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+    400116: CharacterRig_Setup_H_PathStretch_C_5_1SV
+    400118: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+    400120: CharacterRig_Setup_H_WrapperArm_L_O_1ALV
+    400122: CharacterRig_Setup_H_WrapperArm_R_O_1ARV
+    400124: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+    400126: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+    400128: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+    400130: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+    400132: F_body_01
+    400134: //RootNode
+    4300000: F_body_01
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: F_body_01
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default2
+    second: {fileID: 2100000, guid: 94aff96b9c6d37442b73d2ab1b128ae0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: F_t-pose_mecanim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+      parentName: F_t-pose_mecanim(Clone)
+      position: {x: -0, y: 0, z: 0.0285095}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+      parentName: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+      parentName: CharacterRig_Setup_Ctrl_MasterWalk_C_O_G
+      position: {x: -0, y: 0.02939451, z: 0.96661353}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+      parentName: CharacterRig_Setup_H_ZeroOutUpperBody_C_O_1SV
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+      parentName: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+      position: {x: 0.000000016391231, y: -0.000000039115545, z: -0.00000057220456}
+      rotation: {x: 0.054408465, y: 0.000000053687693, z: 0.0000000032008236, w: 0.99851876}
+      scale: {x: 1.0000014, y: 1.0000014, z: 1.0000013}
+    - name: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+      position: {x: 2.4272138e-12, y: 0, z: 0.08321466}
+      rotation: {x: -0.03692138, y: -0.000000085783675, z: -6.1050076e-10, w: 0.9993182}
+      scale: {x: 0.9999987, y: 0.99999857, z: 0.9999987}
+    - name: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_2_1SV
+      position: {x: -5.6843415e-15, y: 0, z: 0.08321743}
+      rotation: {x: -0.03274942, y: 0.00000008085037, z: 0.0000000011423743, w: 0.9994636}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+      position: {x: 1.1368683e-14, y: 0, z: 0.08322343}
+      rotation: {x: -0.025026016, y: -0.00000014447328, z: 0.000000006479455, w: 0.9996868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_4_1SV
+      position: {x: -0, y: 0, z: 0.08322897}
+      rotation: {x: -0.075830966, y: 0.00000008464417, z: 0.000000004690674, w: 0.9971207}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+      position: {x: -0.023131547, y: -0.024573896, z: 0.10218095}
+      rotation: {x: 0.6363344, y: -0.23179653, z: 0.73547345, w: -0.020683559}
+      scale: {x: 1.000001, y: 1.000001, z: 1.0000006}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+      position: {x: -0, y: -0.00000011920928, z: -0.061479375}
+      rotation: {x: 0.13282652, y: -0.07241428, z: -0.014570372, w: 0.98838305}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+      position: {x: -0.00000028610228, y: 0.00000007152557, z: -0.09867906}
+      rotation: {x: -0.000000083614545, y: -0.000001282156, z: 0.007425002, w: 0.99997246}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_L_2_1ALV
+      position: {x: -0, y: 0, z: -0.09867901}
+      rotation: {x: -0.00000014775442, y: -0.0000021767255, z: 0.007425081, w: 0.99997246}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000001}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_L_3_1ALV
+      position: {x: 0.0000018119811, y: -0.00000007152557, z: -0.09867896}
+      rotation: {x: 0.035039183, y: -0.018387547, z: -0.004168902, w: 0.99920815}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+      position: {x: -0, y: -0.00000011920928, z: -0.104326196}
+      rotation: {x: -0.0000006747211, y: 0.000002185793, z: 0.0070124683, w: 0.99997544}
+      scale: {x: 1.0000001, y: 0.99999964, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_L_2_1ALV
+      position: {x: -0, y: 0.000000065565104, z: -0.104326196}
+      rotation: {x: -0.0000019154058, y: 0.0000060322263, z: 0.009350095, w: 0.9999563}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000005}
+    - name: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_L_3_1ALV
+      position: {x: -0.00000028610228, y: 0.00000020861624, z: -0.10432725}
+      rotation: {x: -0.011280672, y: 0.07482534, z: 0.0034866326, w: 0.99712676}
+      scale: {x: 0.9999987, y: 0.99999946, z: 0.999999}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+      position: {x: -0.015105628, y: 0.03875264, z: -0.04786801}
+      rotation: {x: 0.33449104, y: -0.15016231, z: 0.30546197, w: 0.8787833}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+      position: {x: 0.000000095367426, y: 0.000000023841856, z: -0.02386589}
+      rotation: {x: -0.015460512, y: 0.03657163, z: -0.0022157938, w: 0.99920905}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+      position: {x: -0, y: 0.000000047683713, z: -0.021343706}
+      rotation: {x: -0.000004798173, y: 0.000019326804, z: -0.000000044610744, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+      position: {x: -0.0038449285, y: 0.027237784, z: -0.09482226}
+      rotation: {x: 0.020243425, y: 0.008541663, z: 0.05225781, w: 0.998392}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+      position: {x: -0, y: 0, z: -0.034787413}
+      rotation: {x: -0.000004412303, y: 0.019263526, z: 0.00000003843752, w: 0.99981445}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+      position: {x: -0, y: 0.000000023841856, z: -0.021612404}
+      rotation: {x: 0.0000028318257, y: 0.02643666, z: 0.0000000145480445, w: 0.9996505}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+      position: {x: -0.0000003814697, y: -0.00000002980232, z: -0.00000028610228}
+      rotation: {x: -0.04263108, y: 0.016463136, z: -0.000702636, w: 0.998955}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000001}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmPinkiePalm_L_O_1ALV
+      position: {x: -0.00000019073485, y: 0, z: -0.09454798}
+      rotation: {x: 0.022808377, y: -0.0008238076, z: -0.06302031, w: 0.9977513}
+      scale: {x: 1, y: 0.9999997, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+      position: {x: -0, y: 0, z: -0.030603979}
+      rotation: {x: -0.0000071935306, y: 0.03990091, z: -0.0000009845819, w: 0.9992037}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+      position: {x: -0, y: 0.000000002980232, z: -0.026798915}
+      rotation: {x: 0.000027763135, y: 0.041245442, z: 0.0000008789435, w: 0.9991491}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+      position: {x: 0.023131598, y: -0.024573945, z: 0.10218085}
+      rotation: {x: 0.020684408, y: 0.73547345, z: 0.23179625, w: 0.6363344}
+      scale: {x: 0.9999993, y: 0.9999992, z: 0.99999946}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+      position: {x: 0.000000095367426, y: -0.000000023841856, z: 0.061479185}
+      rotation: {x: 0.13306957, y: -0.072164595, z: -0.016316878, w: 0.9883414}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999964}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+      position: {x: -0.000000095367426, y: 0, z: 0.098679155}
+      rotation: {x: -0.000031359374, y: -0.0000046044515, z: 0.0066489987, w: 0.9999779}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_R_2_1ARV
+      position: {x: -0.00000019073485, y: -0.000000047683713, z: 0.09867906}
+      rotation: {x: -0.00006289299, y: -0.000008777923, z: 0.0066490793, w: 0.9999779}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmUpperArm_R_3_1ARV
+      position: {x: -0.000006771087, y: 0.000049400325, z: 0.098698325}
+      rotation: {x: 0.03514228, y: -0.018187743, z: -0.004467387, w: 0.99920684}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+      position: {x: -0.00000019073485, y: -0.000000047683713, z: 0.10432586}
+      rotation: {x: 0.000087297754, y: 0.00017672122, z: 0.008220807, w: 0.9999662}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_R_2_1ARV
+      position: {x: -0.000000095367426, y: -0.000000011920928, z: 0.104326144}
+      rotation: {x: 0.00023281715, y: 0.00047135478, z: 0.010957078, w: 0.99993986}
+      scale: {x: 1.0000004, y: 1, z: 0.9999998}
+    - name: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmForeArm_R_3_1ARV
+      position: {x: 0.00004930496, y: -0.0000238955, z: 0.10435566}
+      rotation: {x: -0.011648429, y: 0.0745537, z: 0.0042646774, w: 0.99713993}
+      scale: {x: 0.99999976, y: 1.0000007, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+      position: {x: 0.015105723, y: -0.038751725, z: 0.047867484}
+      rotation: {x: 0.33463874, y: -0.15010792, z: 0.30545175, w: 0.8787399}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+      position: {x: -0.000000047683713, y: 0, z: 0.02386689}
+      rotation: {x: -0.015464959, y: 0.036569078, z: -0.0022165999, w: 0.999209}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+      position: {x: -0, y: -0.00000007152557, z: 0.021344231}
+      rotation: {x: -0.0000019222625, y: 0.000037550926, z: 0.00000033534832, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+      position: {x: 0.003845024, y: -0.027237635, z: 0.09482192}
+      rotation: {x: 0.02039913, y: 0.008687922, z: 0.05224573, w: 0.9983881}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+      position: {x: -0.000000047683713, y: 0.000000011920928, z: 0.03478732}
+      rotation: {x: 0.000024868148, y: 0.019243598, z: 0.0000003373483, w: 0.9998148}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+      position: {x: -0.000000047683713, y: -0.000000011920928, z: 0.021613406}
+      rotation: {x: -0.000013667501, y: 0.026451241, z: -0.00000006225118, w: 0.9996501}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+      position: {x: -0.00000028610228, y: -0.000000023841856, z: 0.00000028610228}
+      rotation: {x: -0.042606845, y: 0.016524736, z: 0.00070454425, w: 0.998955}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmPinkiePalm_R_O_1ARV
+      position: {x: 0.000000095367426, y: -0.000000017881392, z: 0.094548315}
+      rotation: {x: 0.022916175, y: -0.00072070374, z: -0.06444664, w: 0.9976578}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+      position: {x: 0.000000047683713, y: 0, z: 0.030605266}
+      rotation: {x: -0.0000055115656, y: 0.03990337, z: 0.00000030739457, w: 0.99920356}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+      parentName: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+      position: {x: -0.000000095367426, y: 0, z: 0.026798341}
+      rotation: {x: 0.000013688942, y: 0.041229773, z: 0.0000002735654, w: 0.99914974}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+      parentName: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
+      position: {x: 9.406562e-10, y: -0.00004107952, z: 0.123553365}
+      rotation: {x: 0.31419182, y: -0.000000025628136, z: -0.000000019303101, w: 0.94935954}
+      scale: {x: 1.000001, y: 1.0000014, z: 1.0000012}
+    - name: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+      parentName: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+      position: {x: 0.0000000010951339, y: -0.000000047683713, z: 0.048115917}
+      rotation: {x: -0.0012615797, y: 0.000000032482802, z: -0.0000000055063594, w: 0.9999992}
+      scale: {x: 0.99999905, y: 0.9999986, z: 0.9999988}
+    - name: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+      parentName: CharacterRig_Setup_Bones_HeadNeck_C_2_1HV
+      position: {x: 1.9864642e-10, y: -0.000000095367426, z: 0.048115823}
+      rotation: {x: -0.2007872, y: 0.0000000039886703, z: 0.000000006437768, w: 0.9796349}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: CharacterRig_Setup_H_PathStretch_C_5_1SV
+      parentName: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+      position: {x: 0.000000012119987, y: -0.002719495, z: 0.33203208}
+      rotation: {x: -0.11592107, y: 0.0000000025910392, z: -0.000000022201066, w: 0.9932584}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+      parentName: CharacterRig_Setup_H_PathStretch_C_5_1SV
+      position: {x: -0, y: -0.00000007152557, z: 0.10382194}
+      rotation: {x: 0.00000012665983, y: -0.000000017162952, z: 0.00000002568837,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: CharacterRig_Setup_H_WrapperArm_L_O_1ALV
+      parentName: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+      position: {x: -0.02313154, y: -0.024573825, z: -0.0016410827}
+      rotation: {x: 0.63114226, y: -0.23940992, z: 0.7376893, w: -0.012522245}
+      scale: {x: 0.9999998, y: 1.0000002, z: 1.0000002}
+    - name: CharacterRig_Setup_H_WrapperArm_R_O_1ARV
+      parentName: CharacterRig_Setup_H_PointRepSpineBone_C_O_1SV
+      position: {x: 0.023131605, y: -0.02457385, z: -0.0016410827}
+      rotation: {x: 0.012522778, y: 0.7376897, z: 0.23941015, w: 0.6311418}
+      scale: {x: 0.9999994, y: 0.9999995, z: 0.9999995}
+    - name: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+      parentName: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+      position: {x: -0.0000001065433, y: -0.00570327, z: -0.060620017}
+      rotation: {x: -0.000000003725292, y: -0.000000003725292, z: -0.000000006519261,
+        w: 1}
+      scale: {x: 0.99999964, y: 0.99999964, z: 0.99999964}
+    - name: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+      parentName: CharacterRig_Setup_H_ZeroOutIKPelvis_C_O_1SV
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000003725292, y: 0.000000003725292, z: 0.000000006519261,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+      parentName: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+      position: {x: 0.00000012889504, y: -0.000000019371509, z: -0.043217085}
+      rotation: {x: 0.0000000018626449, y: -0.000000007450585, z: 1, w: 0.00000019470718}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+      parentName: CharacterRig_Setup_Bones_SpineButtock_L_O_1SV
+      position: {x: 0.074341826, y: -0.011031413, z: 0.05267572}
+      rotation: {x: 0.04449095, y: -0.016810507, z: -0.08248255, w: 0.995457}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+      parentName: CharacterRig_Setup_H_WrapperLeg_L_O_1LLV
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.0000000012786292, y: -0.000014235266, z: -0.00017187325, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+      parentName: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+      position: {x: -0.0000006377697, y: -0.0000001490116, z: -0.45918643}
+      rotation: {x: -0.08932022, y: 0.00000017887075, z: 0.0000005704146, w: 0.996003}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+      parentName: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+      position: {x: 0.000002104044, y: 0.0000023126602, z: -0.39442214}
+      rotation: {x: 0.043212388, y: 0.014292602, z: -0.03168232, w: 0.9984611}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+      parentName: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+      position: {x: 0.0007041573, y: 0.12501356, z: -0.04736493}
+      rotation: {x: 0.000009973281, y: 0.00017298666, z: 0.04420625, w: 0.9990224}
+      scale: {x: 0.9999992, y: 0.9999993, z: 0.9999998}
+    - name: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+      parentName: CharacterRig_Setup_Ctrl_IKPelvis_C_O_1SV
+      position: {x: 0.00000012889504, y: -0.000000019371509, z: -0.043217085}
+      rotation: {x: 5.1792426e-14, y: 1, z: 0.0000002663161, w: -0.00000019470718}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
+    - name: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+      parentName: CharacterRig_Setup_Bones_SpineButtock_R_O_1SV
+      position: {x: -0.074341804, y: 0.011031406, z: -0.052675433}
+      rotation: {x: 0.044490084, y: -0.016810128, z: -0.08247765, w: 0.9954575}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+      parentName: CharacterRig_Setup_H_WrapperLeg_R_O_1LRV
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000008727052, y: -0.000014229675, z: -0.0001720923, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+      parentName: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+      position: {x: -0.00000015497207, y: -0.0000011622905, z: 0.45918658}
+      rotation: {x: -0.089318745, y: -0.000000026957853, z: 0.0000003214639, w: 0.9960031}
+      scale: {x: 1, y: 1.0000002, z: 0.9999995}
+    - name: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+      parentName: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+      position: {x: -0.0000014245509, y: -0.00000077337023, z: 0.39442202}
+      rotation: {x: 0.04322427, y: 0.014688399, z: -0.031817555, w: 0.9984506}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000006}
+    - name: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+      parentName: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+      position: {x: -0.0007041394, y: -0.1250137, z: 0.047364917}
+      rotation: {x: -0.0004334974, y: -0.0002632616, z: 0.043319628, w: 0.99906117}
+      scale: {x: 0.99999934, y: 1.0000001, z: 0.99999887}
+    - name: F_body_01
+      parentName: F_t-pose_mecanim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CharacterRig_Setup_Ctrl_MasterControl_C_O_G
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

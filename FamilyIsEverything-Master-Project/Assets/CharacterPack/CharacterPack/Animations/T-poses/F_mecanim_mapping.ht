@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: F_mecanim_mapping
+  m_BoneTemplate:
+    Chest: CharacterRig_Setup_Bones_SpineBody_C_3_1SV
+    Head: CharacterRig_Setup_Bones_HeadHead_C_O_1HV
+    Hips: CharacterRig_Setup_Ctrl_MasterUpperBody_C_O_1SV
+    Left Index Distal: CharacterRig_Setup_Bones_ArmDigit_L_3x3_1ALV
+    Left Index Intermediate: CharacterRig_Setup_Bones_ArmDigit_L_3x2_1ALV
+    Left Index Proximal: CharacterRig_Setup_Bones_ArmDigit_L_3x1_1ALV
+    Left Middle Distal: CharacterRig_Setup_Bones_ArmDigit_L_2x3_1ALV
+    Left Middle Intermediate: CharacterRig_Setup_Bones_ArmDigit_L_2x2_1ALV
+    Left Middle Proximal: CharacterRig_Setup_Bones_ArmDigit_L_2x1_1ALV
+    Left Thumb Distal: CharacterRig_Setup_Bones_ArmDigit_L_1x3_1ALV
+    Left Thumb Intermediate: CharacterRig_Setup_Bones_ArmDigit_L_1x2_1ALV
+    Left Thumb Proximal: CharacterRig_Setup_Bones_ArmDigit_L_1x1_1ALV
+    LeftFoot: CharacterRig_Setup_Bones_LegFoot_L_O_1LLV
+    LeftHand: CharacterRig_Setup_Bones_ArmPalm_L_O_1ALV
+    LeftLowerArm: CharacterRig_Setup_Bones_ArmForeArm_L_1_1ALV
+    LeftLowerLeg: CharacterRig_Setup_Bones_LegShin_L_1_1LLV
+    LeftShoulder: CharacterRig_Setup_Bones_ArmShoulder_L_O_1ALV
+    LeftToes: CharacterRig_Setup_Bones_LegToes_L_O_1LLV
+    LeftUpperArm: CharacterRig_Setup_Bones_ArmUpperArm_L_1_1ALV
+    LeftUpperLeg: CharacterRig_Setup_Bones_LegThigh_L_1_1LLV
+    Neck: CharacterRig_Setup_Bones_HeadNeck_C_1_1HV
+    Right Index Distal: CharacterRig_Setup_Bones_ArmDigit_R_3x3_1ARV
+    Right Index Intermediate: CharacterRig_Setup_Bones_ArmDigit_R_3x2_1ARV
+    Right Index Proximal: CharacterRig_Setup_Bones_ArmDigit_R_3x1_1ARV
+    Right Middle Distal: CharacterRig_Setup_Bones_ArmDigit_R_2x3_1ARV
+    Right Middle Intermediate: CharacterRig_Setup_Bones_ArmDigit_R_2x2_1ARV
+    Right Middle Proximal: CharacterRig_Setup_Bones_ArmDigit_R_2x1_1ARV
+    Right Thumb Distal: CharacterRig_Setup_Bones_ArmDigit_R_1x3_1ARV
+    Right Thumb Intermediate: CharacterRig_Setup_Bones_ArmDigit_R_1x2_1ARV
+    Right Thumb Proximal: CharacterRig_Setup_Bones_ArmDigit_R_1x1_1ARV
+    RightFoot: CharacterRig_Setup_Bones_LegFoot_R_O_1LRV
+    RightHand: CharacterRig_Setup_Bones_ArmPalm_R_O_1ARV
+    RightLowerArm: CharacterRig_Setup_Bones_ArmForeArm_R_1_1ARV
+    RightLowerLeg: CharacterRig_Setup_Bones_LegShin_R_1_1LRV
+    RightShoulder: CharacterRig_Setup_Bones_ArmShoulder_R_O_1ARV
+    RightToes: CharacterRig_Setup_Bones_LegToes_R_O_1LRV
+    RightUpperArm: CharacterRig_Setup_Bones_ArmUpperArm_R_1_1ARV
+    RightUpperLeg: CharacterRig_Setup_Bones_LegThigh_R_1_1LRV
+    Spine: CharacterRig_Setup_Bones_SpineBody_C_1_1SV
+    UpperChest: CharacterRig_Setup_Bones_SpineBody_C_5_1SV
