@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour {
 
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);   //Loads Next Scene
     }
 
     public void QuitGame()
     {
         Debug.Log("QUIT");
-        Application.Quit();
+        Application.Quit();     //Quits Game when not in UnityEditor
     }
 }

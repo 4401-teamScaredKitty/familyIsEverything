@@ -7,7 +7,7 @@ public class ItemPickup : Interactable
 
     public override void Interact()
     {
-        base.Interact();
+        base.Interact();            //Interacts with the "Item"
 
         PickUp();
     }
@@ -16,10 +16,10 @@ public class ItemPickup : Interactable
     {
 
         Debug.Log("Picking up " + item.name);
-        bool wasPickedUp = Inventory.instance.Add(item);
+        bool wasPickedUp = Inventory.instance.Add(item);        //Picks Up Item and adds to Inventory
 
         if (wasPickedUp)
-            Destroy(gameObject);
+            Destroy(gameObject);        //Destroys Game Object from Scene but not Inventory
     }
 
 }
