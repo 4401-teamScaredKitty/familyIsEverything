@@ -86,7 +86,7 @@ public class CameraMove2 : MonoBehaviour {
         currentRotation = Vector3.SmoothDamp(currentRotation, new Vector3(pitch, yaw), ref rotationSmoothVelocity, rotationSmoothTime);
         transform.eulerAngles = currentRotation;
 
-        // = target.position - transform.forward * dstFromTarget;
+        transform.position = target.position - transform.forward * dstFromTarget;
 
         collision.UpdateCameraClipPoints(transform.position, transform.rotation, ref collision.adjustedCameraClipPoints);
         collision.UpdateCameraClipPoints(transform.position, transform.rotation, ref collision.desiredCameraClipPoints);
@@ -215,6 +215,7 @@ public class CameraMove2 : MonoBehaviour {
                             distance = hit.distance;
                     }
                 }
+               // Debug.DrawRay(ray, Color.green);
             }
 
             if (distance == -1)
