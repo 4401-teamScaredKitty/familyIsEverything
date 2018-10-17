@@ -9,4 +9,12 @@ public class Item : ScriptableObject
     public Sprite icon = null;
     public bool isDefaultitem = false;
 
+    public virtual void Use()
+    {
+        //Use Item
+        // Something Might Happen
+
+        Debug.Log("Using " + name);
+    }
+
 }
