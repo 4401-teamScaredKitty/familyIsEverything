@@ -1,0 +1,42 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.77322876)
+
+mtllib panel_a_doortop_corridor.mtl
+
+# 8 vertex positions
+v  -1 2.99977 0.170327
+v  -1 2.87664 0.170186
+v  1 2.87664 0.170186
+v  1 2.99977 0.170327
+v  -1 1 -0.169443
+v  1 1 -0.169443
+v  1 2.60164 -0.170327
+v  -1 2.60164 -0.170327
+
+# 8 UV coordinates
+vt 0 1 0
+vt 0 0.975806 0
+vt 0.5 0.975806 0
+vt 0.5 1 0
+vt 0 0.648518 0
+vt 0.5 0.648518 0
+vt 0.5 0.899909 0
+vt 0 0.899909 0
+
+# 5 vertex normals
+vn 0 0 1
+vn 0 -0.648407 0.761294
+vn 0 0.000552 1
+vn 0 -0.101632 0.994822
+vn 0 0.154429 0.988004
+
+# Mesh 'g polySurface489 panel_a_low:polySurface122pPlane7_polySurface489 panel_a_low:polySurface122pPlane7' with 6 faces
+g g polySurface489 panel_a_low:polySurface122pPlane7_polySurface489 panel_a_low:polySurface122pPlane7
+usemtl panel_a_low_initialShadingGroup
+f  1/1/1 2/2/2 3/3/2
+f  3/3/2 4/4/1 1/1/1
+f  5/5/3 6/6/3 7/7/4
+f  7/7/4 8/8/5 5/5/3
+f  2/2/2 8/8/4 7/7/4
+f  7/7/4 3/3/2 2/2/2
+

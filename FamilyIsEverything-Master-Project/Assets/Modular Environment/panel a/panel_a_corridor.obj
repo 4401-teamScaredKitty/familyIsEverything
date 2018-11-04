@@ -1,0 +1,54 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v3.1.77322876)
+
+mtllib panel_a_corridor.mtl
+
+# 12 vertex positions
+v  -1 -2.59123 -0.084527
+v  -1 -2.99977 -0.083911
+v  1 -2.99977 -0.083911
+v  1 -2.59123 -0.084527
+v  -1 2.99977 0.170327
+v  -1 2.87664 0.170186
+v  1 2.87664 0.170186
+v  1 2.99977 0.170327
+v  -1 2.60164 -0.170327
+v  -1 -2.43047 -0.170327
+v  1 -2.43047 -0.170327
+v  1 2.60164 -0.170327
+
+# 12 UV coordinates
+vt 0 0.054656 0
+vt 0 0 0
+vt 0.5 0 0
+vt 0.5 0.054656 0
+vt 0 1 0
+vt 0 0.975806 0
+vt 0.5 0.975806 0
+vt 0.5 1 0
+vt 0 0.899909 0
+vt 0 0.061566 0
+vt 0.5 0.061566 0
+vt 0.5 0.899909 0
+
+# 5 vertex normals
+vn 0 0.154429 0.988004
+vn 0 0 1
+vn 0 -0.648407 0.761294
+vn 0 -0.101632 0.994822
+vn 0 0.0266 0.999646
+
+# Mesh 'g polySurface475 panel_a_low:polySurface122pPlane7_polySurface475 panel_a_low:polySurface122pPlane7' with 10 faces
+g g polySurface475 panel_a_low:polySurface122pPlane7_polySurface475 panel_a_low:polySurface122pPlane7
+usemtl panel_a_low_initialShadingGroup
+f  1/1/1 2/2/2 3/3/2
+f  3/3/2 4/4/1 1/1/1
+f  5/5/2 6/6/3 7/7/3
+f  7/7/3 8/8/2 5/5/2
+f  9/9/4 10/10/5 11/11/5
+f  11/11/5 12/12/4 9/9/4
+f  10/10/5 1/1/1 4/4/1
+f  4/4/1 11/11/5 10/10/5
+f  6/6/3 9/9/4 12/12/4
+f  12/12/4 7/7/3 6/6/3
+
