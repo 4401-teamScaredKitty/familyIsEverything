@@ -940,7 +940,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4702887420756004, guid: b3fa555ef75264213acf281ac1e7754c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.47
+      value: 11.52
       objectReference: {fileID: 0}
     - target: {fileID: 4702887420756004, guid: b3fa555ef75264213acf281ac1e7754c, type: 2}
       propertyPath: m_LocalPosition.y
@@ -948,7 +948,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4702887420756004, guid: b3fa555ef75264213acf281ac1e7754c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.6
+      value: -2.97
       objectReference: {fileID: 0}
     - target: {fileID: 4702887420756004, guid: b3fa555ef75264213acf281ac1e7754c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1611,8 +1611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629aed317ab48334ab1325d09fd0deed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _patrolWaiting: 0
-  _totalWaitTime: 5
+  _patrolWaiting: 1
+  _totalWaitTime: 3.5
   _switchProbability: 0.2
   _patrolPoints:
   - {fileID: 1458420986}
@@ -1643,6 +1643,7 @@ MonoBehaviour:
   edgeResolveIterations: 4
   edgeDstThreshold: 0.5
   viewMeshFilter: {fileID: 1900630995}
+  target: {fileID: 0}
 --- !u!1 &1842497830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,7 +1818,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1916765010
 BoxCollider:
   m_ObjectHideFlags: 0

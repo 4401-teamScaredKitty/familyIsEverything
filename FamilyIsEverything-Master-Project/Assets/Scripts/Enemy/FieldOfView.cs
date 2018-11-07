@@ -21,12 +21,16 @@ public class FieldOfView : MonoBehaviour
     public MeshFilter viewMeshFilter;
     Mesh viewMesh;
 
+    private UnityEngine.AI.NavMeshAgent myAgent;
+    public Transform target;
+
     void Start()
     {
         viewMesh = new Mesh();
         viewMesh.name = "View Mesh";
         viewMeshFilter.mesh = viewMesh;
-        StartCoroutine("FindTargetsWithDelay", 0.2f);   
+        StartCoroutine("FindTargetsWithDelay", 0.2f);
+        myAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     IEnumerator FindTargetsWithDelay(float delay)
@@ -58,7 +62,7 @@ public class FieldOfView : MonoBehaviour
 
                 if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
-                   visibleTargets.Add(target);  //Enter chase script here, most likely
+                    myAgent.SetDestination(target.position);  //Enter chase script here, most likely
                 }
             }
         }
