@@ -16,7 +16,7 @@ public class damagePlayer : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
-            SceneManager.LoadScene("Game_Over", LoadSceneMode.Additive);
+            SceneManager.LoadScene("Game_Over");
         }
     }
 
