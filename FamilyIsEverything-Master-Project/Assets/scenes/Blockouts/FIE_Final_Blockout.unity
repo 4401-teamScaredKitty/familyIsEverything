@@ -3936,37 +3936,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4285261572231464, guid: 13dee53630ba51146851b757bd838aa6,
     type: 2}
   m_PrefabInternal: {fileID: 752496706}
---- !u!1 &756251551 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1721381998286142, guid: 13dee53630ba51146851b757bd838aa6,
-    type: 2}
-  m_PrefabInternal: {fileID: 2015187758}
---- !u!64 &756251552
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 756251551}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: adc58b8fae1090b4d920dda3eb1186ea, type: 3}
---- !u!65 &756251553
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 756251551}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0449681, y: 5.573031, z: 0.51155496}
-  m_Center: {x: 0.0483338, y: -0.15806039, z: -0.24422252}
 --- !u!1 &777120472
 GameObject:
   m_ObjectHideFlags: 0
@@ -6058,7 +6027,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7767c2b1824ce4a05ad46aa52ebb7e2b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.389
+      value: 1.48
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7767c2b1824ce4a05ad46aa52ebb7e2b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8722,7 +8691,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4285261572231464, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.0006198883
+      value: 0.29
       objectReference: {fileID: 0}
     - target: {fileID: 4285261572231464, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8751,22 +8720,6 @@ Prefab:
     - target: {fileID: 1721381998286142, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
       propertyPath: m_Name
       value: panel_a_corridor_textured (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1721381998286142, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1009394359932248, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1009394359932248, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1009394359932248, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
-      propertyPath: m_NavMeshLayer
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13dee53630ba51146851b757bd838aa6, type: 2}
