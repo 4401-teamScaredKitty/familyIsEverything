@@ -36,3 +36,5 @@ sysinfo.txt
 *.unitypackage
 
 FamilyIsEverything-Master-Project/Packages/manifest\.json
+
+FamilyIsEverything-Master-Project/ProjectSettings/ProjectSettings\.asset
