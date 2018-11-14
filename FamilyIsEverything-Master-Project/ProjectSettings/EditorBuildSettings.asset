@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/scenes/Main_Menu.unity
     guid: 33bf00ca9ef50ff4a8dbe42551495564
   - enabled: 1
+    path: Assets/scenes/Blockouts/FIE_Final_Blockout.unity
+    guid: 60140cce31d2b4f7c85ec917dc7e60c5
+  - enabled: 0
     path: Assets/scenes/Spencer's_Playground.unity
     guid: dc68156aa5e56f04a9b5cf4ae605f9bb
   - enabled: 1

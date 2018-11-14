@@ -4,6 +4,10 @@ public class InventoryUI : MonoBehaviour {
 
     public Transform itemsParent;
 
+    public GameObject inventoryWindow;
+
+    public static bool InventoryIsOpen = false;
+
     Inventory inventory;
 
     InventorySlot [] slots;
@@ -17,9 +21,37 @@ public class InventoryUI : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
+	void Update ()
+    {
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (InventoryIsOpen)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+
+        }
+    }
+
+    public void Resume()
+    {
+        //If inventory is closed resume game speed
+        inventoryWindow.SetActive(false);
+        Time.timeScale = 1f;
+        InventoryIsOpen = false;
+    }
+
+    void Pause()
+    {
+        //freeze game time if inventory open
+        inventoryWindow.SetActive(true);
+        Time.timeScale = 0f;
+        InventoryIsOpen = true;
+    }
 
     void UpdateUI()
     {
