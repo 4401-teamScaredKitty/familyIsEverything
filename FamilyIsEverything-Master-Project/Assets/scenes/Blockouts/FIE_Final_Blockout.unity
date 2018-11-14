@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectColor: {r: 0.07467601, g: 0.07013172, b: 0.0754717, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!114 &11144999
@@ -9250,6 +9250,21 @@ Prefab:
     - target: {fileID: 1092674967889210, guid: 8320a8bf7dbdbe64bbd510e46eead226, type: 2}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114122874609232176, guid: 8320a8bf7dbdbe64bbd510e46eead226,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9528302
+      objectReference: {fileID: 0}
+    - target: {fileID: 114122874609232176, guid: 8320a8bf7dbdbe64bbd510e46eead226,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.91237986
+      objectReference: {fileID: 0}
+    - target: {fileID: 114122874609232176, guid: 8320a8bf7dbdbe64bbd510e46eead226,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.91237986
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8320a8bf7dbdbe64bbd510e46eead226, type: 2}
