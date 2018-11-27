@@ -16,6 +16,7 @@ public class damagePlayer : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
+            //most likely need to change way player is damaged for animator
             SceneManager.LoadScene("Game_Over");
         }
     }

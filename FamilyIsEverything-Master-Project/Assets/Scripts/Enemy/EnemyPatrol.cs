@@ -29,6 +29,8 @@ public class EnemyPatrol : MonoBehaviour
     bool _patrolForward;
     float _waitTimer;
 
+    static Animator enemyAnimator;
+
     public void Start()
     {
         _navMeshAgent = this.GetComponent<NavMeshAgent>();
@@ -61,11 +63,15 @@ public class EnemyPatrol : MonoBehaviour
             //If we are going to wait then wait
             if (_patrolWaiting)
             {
+                enemyAnimator.SetBool("isWalking", false);
+                enemyAnimator.SetBool("isScanning", true);
                 _waiting = true;
                 _waitTimer = 0f;
             }
             else
             {
+                enemyAnimator.SetBool("isScanning", false);
+                enemyAnimator.SetBool("isWalking", true);
                 ChangePatrolPoint();
                 SetDestination();
             }
@@ -96,6 +102,9 @@ public class EnemyPatrol : MonoBehaviour
             _travelling = true;
         }
     }
+
+
+    //if you want it to not switch comment out section below
 
     private void ChangePatrolPoint()
     {

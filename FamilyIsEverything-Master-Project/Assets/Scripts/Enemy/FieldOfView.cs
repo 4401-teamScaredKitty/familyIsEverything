@@ -24,6 +24,8 @@ public class FieldOfView : MonoBehaviour
     private UnityEngine.AI.NavMeshAgent myAgent;
     public Transform target;
 
+    static Animator enemyAnimator;
+
     void Start()
     {
         viewMesh = new Mesh();
@@ -58,10 +60,12 @@ public class FieldOfView : MonoBehaviour
             Vector3 dirToTarget = (target.position - transform.position).normalized;
             if (Vector3.Angle (transform.forward, dirToTarget) < viewAngle / 2)
             {
+                
                 float dstToTarget = Vector3.Distance(transform.position, target.position);
 
                 if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
+                    enemyAnimator.SetBool("isWalking", true);
                     myAgent.SetDestination(target.position);  //Enter chase script here, most likely
                 }
             }
