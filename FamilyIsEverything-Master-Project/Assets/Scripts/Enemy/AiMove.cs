@@ -10,7 +10,7 @@ public class AiMove : MonoBehaviour
 
     NavMeshAgent _navMeshAgent;
 
-    static Animator enemyAnimator;
+    public Animator enemyAnimator;
 
     // Use this for initialization
     void Start()
@@ -33,13 +33,14 @@ public class AiMove : MonoBehaviour
         if (_destination != null)
         {
             enemyAnimator.SetBool("isWalking", true);
+            
             Vector3 targetVector = _destination.transform.position;
             _navMeshAgent.SetDestination(targetVector);
         }
         else
         {
             enemyAnimator.SetBool("isWalking", false);
-            enemyAnimator.SetBool("Idle", true);
+     //       enemyAnimator.SetBool("isScanning", true);
         }
 
     }

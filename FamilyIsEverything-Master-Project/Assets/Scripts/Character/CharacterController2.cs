@@ -39,7 +39,7 @@ public class CharacterController2 : MonoBehaviour
         transform.Translate(transform.forward * currentSpeed * Time.deltaTime, Space.World);
 
         float animationSpeedPercent = ((running) ? 1 : .5f) * inputDir.magnitude;
-        animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
+     //   animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
 
     }
 

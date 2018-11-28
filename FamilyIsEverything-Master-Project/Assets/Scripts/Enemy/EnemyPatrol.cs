@@ -29,7 +29,7 @@ public class EnemyPatrol : MonoBehaviour
     bool _patrolForward;
     float _waitTimer;
 
-    static Animator enemyAnimator;
+    public Animator enemyAnimator;
 
     public void Start()
     {
@@ -63,17 +63,10 @@ public class EnemyPatrol : MonoBehaviour
             //If we are going to wait then wait
             if (_patrolWaiting)
             {
-                enemyAnimator.SetBool("isWalking", false);
+        
                 enemyAnimator.SetBool("isScanning", true);
                 _waiting = true;
                 _waitTimer = 0f;
-            }
-            else
-            {
-                enemyAnimator.SetBool("isScanning", false);
-                enemyAnimator.SetBool("isWalking", true);
-                ChangePatrolPoint();
-                SetDestination();
             }
         }
 
@@ -84,10 +77,9 @@ public class EnemyPatrol : MonoBehaviour
             if (_waitTimer >= _totalWaitTime)
             {
                 _waiting = false;
-
+                enemyAnimator.SetBool("isScanning", false);
                 ChangePatrolPoint();
                 SetDestination();
-
             }
 
         }
