@@ -70,7 +70,7 @@ public class FieldOfView : MonoBehaviour
 
                 if (!Physics.Raycast (transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
-                    myAgent.speed += 1;
+             //       myAgent.speed += 1;
              //       enemyAnimator.SetBool("isScanning", false);
                     
                     myAgent.SetDestination(target.position);  //Enter chase script here, most likely
