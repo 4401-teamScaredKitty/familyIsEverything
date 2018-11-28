@@ -12,12 +12,12 @@ public class CharacterController2 : MonoBehaviour
     float speedSmoothVelocity;
     float currentSpeed;
 
-    Animator playerAnimator;
+    Animator animator;
     Transform cameraT;
 
     void Start ()
     {
-        playerAnimator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         cameraT = Camera.main.transform;
     }
 
@@ -28,13 +28,8 @@ public class CharacterController2 : MonoBehaviour
 
         if (inputDir != Vector2.zero)
         {
-            playerAnimator.SetBool("Walking", true);
             float targetRotation = Mathf.Atan2(inputDir.x, inputDir.y) * Mathf.Rad2Deg + cameraT.eulerAngles.y;
             transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref turnSmoothVelocity, turnSmoothTime);
-        }
-        else
-        {
-            playerAnimator.SetBool("Walking", false);
         }
 
         bool running = Input.GetKey (KeyCode.LeftShift);
